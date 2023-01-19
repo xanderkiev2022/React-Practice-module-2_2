@@ -10,6 +10,7 @@ export class AddForm extends Component {
     this.setState({ [name]: value });
   };
 
+  
   handleSubmit = e => {
     e.preventDefault();
 
